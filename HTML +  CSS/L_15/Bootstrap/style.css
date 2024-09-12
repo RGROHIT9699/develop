@@ -1,0 +1,9 @@
+.mera-color-orange{
+    background-color: orange;
+}
+#swc{
+    padding: 55px;
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+}

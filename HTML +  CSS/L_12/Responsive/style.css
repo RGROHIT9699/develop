@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    min-height: 70px;
+    background-color: aqua;
+    align-items: center;
+}
+
+div{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: tomato;
+    font-size: 1.6rem;
+}
+
+@media screen and (max-width:800px){
+    header{
+        flex-direction: column;
+        min-height: 150px;
+        background-color: khaki;
+    }
+    div{
+        flex-direction: column;
+        align-items: center;
+    }
+    a{
+        margin: 10px;
+        color: crimson;
+    }
+    
+}

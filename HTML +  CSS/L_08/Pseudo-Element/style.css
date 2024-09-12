@@ -1,0 +1,15 @@
+h1::after{
+    content: "Ram Ram Ji";
+    content: '\1F607';
+}
+h1::before{
+    content: "Sabhi ko ";
+}
+p::first-line{
+    text-transform:uppercase;
+    color: yellow;
+}
+p::first-letter{
+    text-transform:uppercase;
+    background-color: aquamarine;
+}

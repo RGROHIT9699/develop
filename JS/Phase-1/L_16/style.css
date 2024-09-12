@@ -1,0 +1,22 @@
+/* .item{
+    flex-direction: ;
+} */
+section p{
+    color: aqua;
+    /* line-height: 20px; */
+    /* line.-height: 2;
+     */
+     /* rotate: ; */
+     transform: rotate(-30deg);
+}
+section + p{
+    color: aliceblue;
+
+}
+header{
+    grid-column: 1/100%;
+}
+/* img{
+    z-index: index 1;;
+    background-re
+} */

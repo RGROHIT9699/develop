@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+span{
+    border: 2px solid crimson;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    
+}
+div{
+    border: 2px solid crimson;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    display: none;
+    /* visibility: hidden; */
+}

@@ -1,0 +1,46 @@
+/* h1{
+    /* background-color: blue; */
+/* } */
+div{
+    width: 600px;
+    border: 2px solid black;
+    margin: 20px auto;
+}
+/* @media screen and (width:500px) {
+    h1{
+        background-color: purple;
+    }
+    p{
+        font-size: 20px;
+    }
+} */
+/* @media screen and (orientation:portrait) {
+    h1{
+        background-color: green;
+    }
+    
+} */
+/* @media screen and (orientation:landscape) , (min-width:500px){
+    h1{
+        background-color: red;
+    }
+    
+} */
+
+
+
+@media screen and(max-width:992px) {
+    h1{
+        background-color: red;
+    }
+}
+@media screen and(max-width:768px){
+    h1{
+        background-color: aqua;
+    }
+}
+@media screen and (max-width:576px){
+    h1{
+        background-color: cornsilk;
+    }
+}

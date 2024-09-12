@@ -1,0 +1,28 @@
+h1{
+    color: orange;
+
+}
+/* body{
+    background-color: black;  
+} */
+/* p{
+    background-color: aquamarine
+} */
+#head1{
+    color: rgb(0, 219, 219);
+}
+.para1{
+    /* color: yellow; */
+    background-color: goldenrod;
+}
+input[type="text"]{
+    background-color: blanchedalmond;
+    color: salmon;
+}
+*{
+    box-sizing: border-box;
+
+    border: 2px solid yellow;
+    margin: 0%;
+    padding: 0%;
+} 

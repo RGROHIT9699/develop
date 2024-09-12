@@ -1,0 +1,26 @@
+/* ul>li{
+    /* font-size: 2em; */
+    /* font-size: 150%; */
+
+/* } */
+/* ul>li{
+    font-size: 2rem;
+    font-size: 150%;
+
+} */ 
+/* h1{ */
+    /* font-size: 2em; */
+/* } */
+/* section{
+    width: 150px;
+    background-color: coral;
+}
+div{
+    width: 51%;
+    background-color: aqua;
+} */
+section{
+    width: 50vw;
+    height: 50vh;
+    background-color: aqua;
+}

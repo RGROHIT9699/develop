@@ -1,0 +1,16 @@
+article>ol>li>h1{
+    color: aquamarine;
+}
+ol>li>p>b{
+    color: rgb(151, 91, 0);
+}
+ol>li{
+    color: rgb(0, 123, 123);
+}
+article>ol>li>p{
+    color: darksalmon;
+}
+ol>li>p>b>a{
+    /* text-underline-offset: 2px; */
+    text-decoration: none;
+}

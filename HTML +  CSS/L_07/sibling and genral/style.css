@@ -1,0 +1,15 @@
+div>ul>h1{
+    color: goldenrod;
+}
+div > ul > h1 + li{
+    color:brown;
+}
+article>div>h1 + ul{
+    color: brown;
+    text-decoration: dashed;
+}
+div ul >h1 ~ li{
+    color:  green
+    
+    ;
+}
