@@ -1,6 +1,7 @@
 let but = document.querySelectorAll('button')
 
 let inp = document.querySelector('input')
+let time = null;
 
 for(let item of but) {
     item.addEventListener('click',function (eve) {
@@ -19,5 +20,9 @@ for(let item of but) {
         else {
             inp.value += val;
         }
+        clearTimeout(time);
+        time = setTimeout(function(){
+            inp.value= '';
+        },10000)
     })
 }
